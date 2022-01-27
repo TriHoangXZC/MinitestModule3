@@ -34,6 +34,7 @@ public class ProductServlet extends HttpServlet {
                 break;
             case "sortDesc":
                 sortDescProduct(request, response);
+                break;
             default:
                 displayAllProduct(request, response);
         }
