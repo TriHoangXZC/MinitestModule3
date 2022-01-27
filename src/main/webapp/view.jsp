@@ -33,7 +33,7 @@
             <td>${product.getPrice()}</td>
             <td>${product.getQuantity()}</td>
             <td>${product.getDescription()}</td>
-            <td><button><a href=""></a></button>Add to card</td>
+            <td><button><a href="">Add to cart</a></button></td>
         </tr>
     </c:forEach>
 </table>
